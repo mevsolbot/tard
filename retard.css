@@ -1,0 +1,36 @@
+#page1{
+    background-image: url("file:///C:/Users/tenzi/Downloads/background1.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#fixed1{
+    position: fixed; /* Make the box fixed */
+  top: 50px;
+    display: flex; /* Flex container to align items horizontally */
+    justify-content: space-between; /* Center the items horizontally */
+    align-items:center; /* Center the items vertically */
+    border: 5px solid #f90; /* Box around the container */
+    padding: 10px;
+    background-color: #fff; /* White background for the box */
+    padding-left: 2px; /* Ensure box starts 2px away from the left */
+    padding-right: 2px;
+   
+}
+#fixedba {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+#backgroundlogo {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+    margin: 0 10px;
+}
+#logo1, #logo2{
+    display: block;
+    margin-left: auto; /* Pushes the links to the right */
+    margin-right:25px; /* Ensure links end 2px away from the right */
+}
